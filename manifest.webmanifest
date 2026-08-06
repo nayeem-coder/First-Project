@@ -1,0 +1,16 @@
+{
+  "name": "Nayem Mia Portfolio",
+  "short_name": "Nayem",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#09090B",
+  "description": "A premium portfolio website for Nayem Mia with responsive design and multi-language support.",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
