@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="f" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#041028" />
+  <g transform="translate(40,40)">
+    <rect width="1120" height="420" rx="14" fill="url(#g1)" opacity="0.08"/>
+    <rect x="20" y="20" width="1080" height="380" rx="12" fill="#071428" stroke="rgba(255,255,255,0.04)"/>
+
+    <g transform="translate(40,40)">
+      <rect x="0" y="0" width="600" height="320" rx="10" fill="#0b2132" opacity="0.6" filter="url(#f)"/>
+      <rect x="620" y="0" width="400" height="320" rx="10" fill="#071428" opacity="0.45"/>
+
+      <text x="20" y="40" fill="#dff6ff" font-size="28" font-family="Arial">Desktop + Mobile Mockup</text>
+      <rect x="30" y="70" width="420" height="220" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(124,58,237,0.12)"/>
+
+      <circle cx="520" cy="150" r="72" fill="url(#g1)" opacity="0.12"/>
+    </g>
+
+    <g transform="translate(40,480)">
+      <rect width="320" height="140" rx="10" fill="#071428" stroke="rgba(255,255,255,0.03)"/>
+      <text x="18" y="32" fill="#cfe7ff" font-size="18">CTA: Download CV</text>
+      <text x="18" y="58" fill="#9fcff8" font-size="12">Call, WhatsApp, Email, Facebook — visible above the fold</text>
+    </g>
+  </g>
+
+  <text x="40" y="680" font-size="12" fill="#9fb8d6">Placeholder SVG: replace with the real UI mockup image file (images/ui-mockup.svg)</text>
+</svg>
