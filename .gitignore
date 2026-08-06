@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+.vscode/
+.firebase/
+.DS_Store
+coverage/

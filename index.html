@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First-Project — Portfolio</title>
+    <link rel="manifest" href="/public/manifest.json" />
+    <meta name="theme-color" content="#09090B" />
+    <script type="module">
+      import '/src/js/main.js'
+    </script>
+  </head>
+  <body class="min-h-screen bg-deepBlack text-gray-200">
+    <header class="p-4 flex items-center justify-between">
+      <div class="text-white font-semibold">Your Name</div>
+      <nav class="space-x-4 text-sm opacity-80">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="px-6 py-12">
+      <section id="home" class="max-w-4xl mx-auto text-center">
+        <div class="glass rounded-2xl p-8">
+          <h1 class="hero-title text-4xl font-bold mb-4">Hi — I'm Your Name</h1>
+          <p class="mb-6 text-lg opacity-90">Apple iOS 26 inspired portfolio with glass cards, animations and PWA support.</p>
+          <div class="flex items-center justify-center gap-4">
+            <a class="px-4 py-2 bg-electricBlue text-black rounded-md font-semibold" href="#">Contact</a>
+            <a class="px-4 py-2 border border-gray-700 rounded-md" href="#">Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-6 text-center opacity-60">Made with ❤️</footer>
+  </body>
+</html>

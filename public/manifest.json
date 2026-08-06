@@ -1,0 +1,9 @@
+{
+  "name": "First-Project",
+  "short_name": "Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#09090B",
+  "icons": []
+}
